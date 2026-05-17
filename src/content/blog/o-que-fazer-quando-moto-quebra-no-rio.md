@@ -1,6 +1,6 @@
 ---
 title: "O que fazer quando sua moto quebra na estrada no Rio de Janeiro"
-description: "Guia completo sobre como agir quando sua moto apresenta pane mecânica nas ruas e rodovias do Rio de Janeiro. Saiba como pedir reboque de forma rápida e segura."
+description: "Guia completo sobre como agir quando sua moto apresenta pane mecânica nas ruas e rodovias do Rio de Janeiro. Saiba como pedir reboque e guincho de forma rápida e segura."
 pubDate: 2025-05-10
 ---
 
@@ -13,11 +13,11 @@ Estar no meio do trânsito do Rio de Janeiro e ter a moto quebrando é uma situa
 1. **Sinalize imediatamente** — Ligue o pisca-alerta e, se possível, mova a moto para o acostamento ou um local seguro fora do fluxo de veículos.
 2. **Use o triângulo de segurança** — Se você tiver um, posicione-o a pelo menos 30 metros atrás da moto.
 3. **Não tente consertar na pista** — Mexer no motor no meio da via é perigoso. Aguarde em local seguro.
-4. **Chame um reboque profissional** — Entre em contato com um serviço de guincho de motos especializado.
+4. **Chame um reboque profissional** — Entre em contato com um serviço de reboque e guincho de motos especializado.
 
-## Por que usar um serviço de reboque especializado para motos?
+## Por que usar um serviço de reboque e guincho especializado para motos?
 
-Diferente de um guincho comum para carros, o **reboque de motos** exige equipamentos específicos como carretinha com rampas e amarração adequada. Usar um serviço não especializado pode causar danos à sua moto.
+Diferente de um guincho comum para carros, o **reboque e guincho de motos** exige equipamentos específicos como carretinha com rampas e amarração adequada. Usar um serviço não especializado pode causar danos à sua moto.
 
 No **Moto Socorro RJ**, utilizamos uma carretinha profissional com capacidade para até **3 motos**, garantindo transporte seguro para qualquer destino no Rio de Janeiro e Baixada Fluminense.
 

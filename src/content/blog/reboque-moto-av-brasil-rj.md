@@ -1,6 +1,6 @@
 ---
-title: "Reboque de moto na Av. Brasil: saiba como pedir socorro rápido"
-description: "A Av. Brasil é uma das vias mais perigosas do Rio de Janeiro para motociclistas. Saiba como solicitar um reboque de moto rápido e seguro na região."
+title: "Reboque e Guincho de moto na Av. Brasil: saiba como pedir socorro rápido"
+description: "A Av. Brasil é uma das vias mais perigosas do Rio de Janeiro para motociclistas. Saiba como solicitar um reboque ou guincho de moto rápido e seguro na região."
 pubDate: 2025-05-12
 ---
 
@@ -15,7 +15,7 @@ A **Avenida Brasil** é uma das vias mais extensas e movimentadas do Rio de Jane
 - **Acidentes** — A alta velocidade e o volume de tráfego aumentam o risco
 - **Pane elétrica** — Problemas com bateria e sistema elétrico
 
-## Como solicitar um reboque na Av. Brasil?
+## Como solicitar um reboque ou guincho na Av. Brasil?
 
 Se sua moto quebrar na Av. Brasil, siga estes passos:
 
@@ -37,6 +37,6 @@ Além da Av. Brasil, atendemos todas as vias do entorno:
 
 ## Atendimento 24 horas
 
-Nosso serviço de reboque funciona **24 horas por dia, 7 dias por semana**. Não importa se é de madrugada, feriado ou final de semana — estamos prontos para socorrer sua moto na Av. Brasil e em qualquer lugar do Rio de Janeiro.
+Nosso serviço de reboque e guincho funciona **24 horas por dia, 7 dias por semana**. Não importa se é de madrugada, feriado ou final de semana — estamos prontos para socorrer sua moto na Av. Brasil e em qualquer lugar do Rio de Janeiro.
 
 **WhatsApp: (21) 96493-7764** — Chame agora!

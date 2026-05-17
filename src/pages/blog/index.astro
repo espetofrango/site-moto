@@ -6,13 +6,13 @@ import { getCollection } from 'astro:content';
 
 const posts = (await getCollection('blog')).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 ---
-<Layout title="Blog — Moto Socorro RJ | Dicas sobre Motos e Reboque" description="Artigos, dicas e informações sobre motos, reboque, trânsito e segurança no Rio de Janeiro e Baixada Fluminense.">
+<Layout title="Blog — Moto Socorro RJ | Reboque e Guincho de Motos" description="Artigos, dicas e informações sobre motos, reboque, guincho, trânsito e segurança no Rio de Janeiro e Baixada Fluminense.">
   <Header />
   <main>
     <section class="blog-header">
       <div class="container">
         <h1 class="section-title">Blog <span class="accent">Moto Socorro RJ</span></h1>
-        <p class="section-subtitle">Dicas, informações e novidades sobre motos, reboque e trânsito no Rio de Janeiro.</p>
+        <p class="section-subtitle">Dicas, informações e novidades sobre motos, guincho, reboque e trânsito no Rio de Janeiro.</p>
       </div>
     </section>
     <section style="padding-bottom: 5rem;">
