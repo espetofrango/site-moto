@@ -1,0 +1,39 @@
+---
+const faqs = [
+  { q: "Como funciona o serviço de reboque de motos?", a: "Você entra em contato pelo WhatsApp ou telefone, informa sua localização e o tipo de problema. Enviamos nosso veículo com carretinha profissional até o local para transportar sua moto com total segurança até o destino desejado." },
+  { q: "Qual o valor do reboque de moto?", a: "O valor varia conforme a distância e o horário. Trabalhamos com preços justos e transparentes. Entre em contato pelo WhatsApp para um orçamento rápido e sem compromisso." },
+  { q: "Vocês atendem de madrugada e nos feriados?", a: "Sim! Nosso atendimento é 24 horas por dia, 7 dias por semana, incluindo feriados e finais de semana. Estamos sempre prontos para socorrer você." },
+  { q: "Quais formas de pagamento são aceitas?", a: "Aceitamos Pix, dinheiro, cartão de débito e cartão de crédito. Facilitamos ao máximo para sua comodidade." },
+  { q: "Posso rebocar mais de uma moto?", a: "Sim! Nossa carretinha tem capacidade para transportar até 3 motos simultaneamente, ideal para grupos ou oficinas que precisam movimentar mais de uma moto." },
+  { q: "Vocês atendem na Baixada Fluminense?", a: "Sim! Atendemos toda a Baixada Fluminense, incluindo Nova Iguaçu, Nilópolis, Duque de Caxias, São João de Meriti, Belford Roxo, Mesquita e Queimados." },
+];
+---
+<section class="section" id="faq" style="background: var(--color-bg-secondary);">
+  <div class="container">
+    <h2 class="section-title">Perguntas <span class="accent">Frequentes</span></h2>
+    <p class="section-subtitle">Tire suas dúvidas sobre nosso serviço de guincho e reboque de motos.</p>
+    <div class="faq-list">
+      {faqs.map((faq, i) => (
+        <div class="faq-item" id={`faq-${i}`}>
+          <button class="faq-question" aria-expanded="false">
+            <span>{faq.q}</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">{faq.a}</div>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+<script>
+  document.querySelectorAll('.faq-question').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const item = btn.parentElement;
+      const isActive = item?.classList.contains('active');
+      document.querySelectorAll('.faq-item').forEach(el => el.classList.remove('active'));
+      if (!isActive) item?.classList.add('active');
+    });
+  });
+</script>

@@ -1,0 +1,27 @@
+---
+const services = [
+  { icon: "🔧", title: "Pane Mecânica", desc: "Reboque para a oficina mais próxima ou de sua preferência." },
+  { icon: "🚨", title: "Remoção Pós-Acidente", desc: "Remoção rápida e segura da sua moto após sinistros e colisões." },
+  { icon: "⛽", title: "Pane Seca", desc: "Ficou sem combustível? Levamos sua moto ao posto mais próximo." },
+  { icon: "📅", title: "Transporte Agendado", desc: "Agende o transporte da sua moto para qualquer local do RJ." },
+  { icon: "🗺️", title: "Transporte Interestadual", desc: "Transporte de motos entre estados com segurança e pontualidade." },
+  { icon: "🔋", title: "Carga de Bateria", desc: "Socorro para bateria descarregada. Chegamos rápido até você." },
+  { icon: "🏁", title: "Reboque para Eventos", desc: "Transporte para track days, encontros de motos e exposições." },
+  { icon: "🛞", title: "Pneu Furado", desc: "Assistência com pneu furado. Rebocamos até a borracharia." },
+];
+---
+<section class="section" id="servicos" style="background: var(--color-bg-secondary);">
+  <div class="container">
+    <h2 class="section-title">Nossos <span class="accent">Serviços</span></h2>
+    <p class="section-subtitle">Oferecemos uma ampla gama de serviços de guincho e reboque para motos em todo o Rio de Janeiro e Baixada Fluminense.</p>
+    <div class="services-grid">
+      {services.map(s => (
+        <div class="service-card glass-card">
+          <div class="service-icon">{s.icon}</div>
+          <h3>{s.title}</h3>
+          <p>{s.desc}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,27 @@
+---
+const advantages = [
+  { icon: "⏰", title: "Atendimento 24 Horas", desc: "Disponíveis a qualquer hora do dia ou da noite, inclusive feriados e finais de semana." },
+  { icon: "🚗", title: "Chegamos Rápido", desc: "Atendimento ágil com deslocamento rápido até o local da ocorrência." },
+  { icon: "🏍️", title: "Até 3 Motos por Vez", desc: "Carretinha com capacidade para transportar até 3 motos simultaneamente." },
+  { icon: "💰", title: "Preço Justo", desc: "Valores acessíveis e transparentes. Você sabe exatamente quanto vai pagar." },
+  { icon: "🛡️", title: "Segurança Total", desc: "Equipamentos profissionais com amarração segura para proteger sua moto." },
+  { icon: "📍", title: "Todo Rio de Janeiro", desc: "Cobertura em todo o RJ, Baixada Fluminense e principais rodovias." },
+];
+---
+<section class="section" id="vantagens">
+  <div class="container">
+    <h2 class="section-title">Por que escolher o <span class="accent">Moto Socorro RJ</span>?</h2>
+    <p class="section-subtitle">Somos especialistas em reboque de motos. Utilizamos um veículo com engate e carretinha profissional para garantir o transporte seguro da sua moto.</p>
+    <div class="advantages-grid">
+      {advantages.map(a => (
+        <div class="advantage-card glass-card">
+          <div class="advantage-icon">{a.icon}</div>
+          <div>
+            <div class="advantage-title">{a.title}</div>
+            <div class="advantage-desc">{a.desc}</div>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

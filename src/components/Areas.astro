@@ -1,0 +1,36 @@
+---
+const areas = [
+  {
+    title: "📍 Rio de Janeiro",
+    tags: ["Zona Sul", "Copacabana", "Ipanema", "Leblon", "Botafogo", "Flamengo", "Tijuca", "Méier", "Madureira", "Penha", "Ilha do Governador", "Barra da Tijuca", "Recreio", "Centro", "Jacarepaguá", "São Cristóvão"]
+  },
+  {
+    title: "📍 Zona Oeste",
+    tags: ["Campo Grande", "Santa Cruz", "Bangu", "Realengo", "Padre Miguel", "Senador Camará", "Guaratiba", "Cosmos", "Paciência", "Sepetiba"]
+  },
+  {
+    title: "📍 Baixada Fluminense",
+    tags: ["Nova Iguaçu", "Nilópolis", "Duque de Caxias", "São João de Meriti", "Belford Roxo", "Mesquita", "Queimados", "Japeri", "Magé", "Seropédica"]
+  },
+  {
+    title: "🛣️ Principais Vias",
+    tags: ["Av. Brasil", "Linha Vermelha", "Linha Amarela", "Via Dutra", "Washington Luís", "Ponte Rio-Niterói", "Av. das Américas", "Av. Presidente Vargas", "Av. Suburbana", "Grajaú-Jacarepaguá"]
+  },
+];
+---
+<section class="section" id="areas">
+  <div class="container">
+    <h2 class="section-title">Áreas de <span class="accent">Atendimento</span></h2>
+    <p class="section-subtitle">Cobertura completa em todo o Rio de Janeiro, Baixada Fluminense e principais rodovias e vias expressas da cidade.</p>
+    <div class="areas-wrapper">
+      {areas.map(area => (
+        <div class="glass-card">
+          <h3>{area.title}</h3>
+          <div class="area-tags">
+            {area.tags.map(tag => <span class="area-tag">{tag}</span>)}
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

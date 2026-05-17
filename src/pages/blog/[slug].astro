@@ -1,0 +1,31 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog');
+  return posts.map(post => ({
+    params: { slug: post.slug },
+    props: { post },
+  }));
+}
+
+const { post } = Astro.props;
+const { Content } = await post.render();
+---
+<Layout title={`${post.data.title} — Moto Socorro RJ`} description={post.data.description}>
+  <Header />
+  <main class="blog-content" style="padding-top: 100px;">
+    <h1>{post.data.title}</h1>
+    <p class="post-meta">
+      {post.data.pubDate.toLocaleDateString('pt-BR', { day: '2-digit', month: 'long', year: 'numeric' })}
+    </p>
+    <Content />
+    <div style="margin-top: 3rem; padding-top: 2rem; border-top: 1px solid var(--color-border);">
+      <a href="/blog" class="btn btn-outline">← Voltar ao Blog</a>
+    </div>
+  </main>
+  <Footer />
+</Layout>

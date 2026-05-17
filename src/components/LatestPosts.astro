@@ -1,0 +1,26 @@
+---
+import { getCollection } from 'astro:content';
+const posts = (await getCollection('blog')).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()).slice(0, 3);
+---
+{posts.length > 0 && (
+<section class="section" id="blog">
+  <div class="container">
+    <h2 class="section-title">Últimos <span class="accent">Artigos</span></h2>
+    <p class="section-subtitle">Dicas, informações e novidades sobre motos, reboque e trânsito no Rio de Janeiro.</p>
+    <div class="posts-grid">
+      {posts.map(post => (
+        <a href={`/blog/${post.slug}`} class="post-card glass-card">
+          <div class="post-card-body">
+            <div class="post-card-date">
+              {post.data.pubDate.toLocaleDateString('pt-BR', { day: '2-digit', month: 'long', year: 'numeric' })}
+            </div>
+            <h3>{post.data.title}</h3>
+            <p>{post.data.description}</p>
+            <span class="post-card-link">Ler mais →</span>
+          </div>
+        </a>
+      ))}
+    </div>
+  </div>
+</section>
+)}
