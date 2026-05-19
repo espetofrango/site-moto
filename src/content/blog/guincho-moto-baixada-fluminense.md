@@ -6,6 +6,8 @@ pubDate: 2025-05-15
 
 ## Reboque e Guincho de motos na Baixada Fluminense
 
+![Reboque e Guincho de moto na Baixada Fluminense](/images/guincho-moto-baixada-fluminense.png)
+
 Se você mora ou trabalha na **Baixada Fluminense** e precisa de um [serviço de guincho de moto](/), saiba que o **Moto Socorro RJ** oferece cobertura completa em toda a região, com atendimento rápido e preço justo.
 
 ## Cidades atendidas na Baixada

@@ -6,6 +6,8 @@ pubDate: 2025-05-10
 
 ## Moto quebrou? Não entre em pânico!
 
+![O que fazer quando sua moto quebra na estrada no Rio de Janeiro](/images/o-que-fazer-quando-moto-quebra-no-rio.png)
+
 Estar no meio do trânsito do Rio de Janeiro e ter a moto quebrando é uma situação estressante. Seja na **Av. Brasil**, na **Linha Vermelha** ou em qualquer bairro da cidade, saber o que fazer nesses momentos pode garantir sua segurança e evitar dores de cabeça.
 
 ## Primeiros passos ao ter uma pane

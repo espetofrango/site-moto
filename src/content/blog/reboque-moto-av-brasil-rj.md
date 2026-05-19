@@ -6,6 +6,8 @@ pubDate: 2025-05-12
 
 ## A Av. Brasil e os desafios para motociclistas
 
+![Reboque e Guincho de moto na Av. Brasil](/images/reboque-moto-av-brasil-rj.png)
+
 A **Avenida Brasil** é uma das vias mais extensas e movimentadas do Rio de Janeiro, com cerca de 58 km de extensão. Para motociclistas, é um trajeto comum, mas também perigoso — com trânsito intenso, piso irregular e alto volume de veículos pesados.
 
 ## Principais problemas enfrentados por motociclistas na Av. Brasil
