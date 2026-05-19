@@ -17,7 +17,7 @@ A **Avenida Brasil** é uma das vias mais extensas e movimentadas do Rio de Jane
 
 ## Como solicitar um reboque ou guincho na Av. Brasil?
 
-Se sua moto quebrar na Av. Brasil, siga estes passos:
+Se sua moto quebrar na Av. Brasil, veja também nosso guia geral sobre [o que fazer quando a moto quebra no RJ](/blog/o-que-fazer-quando-moto-quebra-no-rio) e siga estes passos:
 
 1. **Mova-se para um local seguro** — Tente alcançar o acostamento ou uma área lateral
 2. **Sinalize sua presença** — Use pisca-alerta e, se possível, coloque um alerta visual
@@ -32,11 +32,11 @@ Além da Av. Brasil, atendemos todas as vias do entorno:
 - **Linha Vermelha** (Via Expressa Presidente João Goulart)
 - **Linha Amarela** (Via Expressa TransCarioca)
 - **Via Dutra** (BR-116)
-- **Washington Luís** (BR-040)
+- **Washington Luís** (BR-040) - Principal acesso à [Baixada Fluminense](/blog/guincho-moto-baixada-fluminense)
 - **Av. das Américas**
 
 ## Atendimento 24 horas
 
-Nosso serviço de reboque e guincho funciona **24 horas por dia, 7 dias por semana**. Não importa se é de madrugada, feriado ou final de semana — estamos prontos para socorrer sua moto na Av. Brasil e em qualquer lugar do Rio de Janeiro.
+Nosso [serviço de reboque e guincho](/) funciona **24 horas por dia, 7 dias por semana**. Não importa se é de madrugada, feriado ou final de semana — estamos prontos para socorrer sua moto na Av. Brasil e em qualquer lugar do Rio de Janeiro.
 
 **WhatsApp: (21) 96493-7764** — Chame agora!
