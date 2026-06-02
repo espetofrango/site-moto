@@ -3,6 +3,7 @@ import vercel from '@astrojs/vercel/static';
 
 // https://astro.build/config
 export default defineConfig({
+  site: 'https://reboquemotorj.com.br',
   output: 'static',
   adapter: vercel({
     webAnalytics: {
